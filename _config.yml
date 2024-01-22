@@ -3,7 +3,7 @@ theme: minima
 title: Frank's Blog
 author: Frank Wei(Zhenhuan Wei)
 email: zhenhuan2002@163.com
-url: https://weizhenhuan.github.io
+url: https://weizhenhuan.github.io/blog
 baseurl: /blog
 
 timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
