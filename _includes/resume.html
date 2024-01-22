@@ -68,14 +68,14 @@
         {%- for item in resume.social -%}
           <a href="{{ item[1] }}" class="icon-link" itemprop="sameAs" target="_blank">
             {%- case item[0] -%}
-              {%- when "GitHub"    -%}<img src="/img/socialicons/github.svg">
-              {%- when "Twitter"   -%}<img src="/img/socialicons/twitter.svg">
-              {%- when "Medium"    -%}<img src="/img/socialicons/medium.svg">
-              {%- when "Dribbble"  -%}<img src="/img/socialicons/dribbble.svg">
-              {%- when "Facebook"  -%}<img src="/img/socialicons/facebook.svg">
-              {%- when "LinkedIn"  -%}<img src="/img/socialicons/linkedin.svg">
-              {%- when "Instagram" -%}<img src="/img/socialicons/instagram.svg">
-              {%- when "Website"   -%}<img src="/img/socialicons/website.svg">
+              {%- when "GitHub"    -%}<img src={{"/img/socialicons/github.svg" | relative_url}}>
+              {%- when "Twitter"   -%}<img src={{"/img/socialicons/twitter.svg" | relative_url}}>
+              {%- when "Medium"    -%}<img src={{"/img/socialicons/medium.svg" | relative_url}}>
+              {%- when "Dribbble"  -%}<img src={{"/img/socialicons/dribbble.svg" | relative_url}}>
+              {%- when "Facebook"  -%}<img src={{"/img/socialicons/facebook.svg" | relative_url}}>
+              {%- when "LinkedIn"  -%}<img src={{"/img/socialicons/linkedin.svg" | relative_url}}>
+              {%- when "Instagram" -%}<img src={{"/img/socialicons/instagram.svg" | relative_url}}>
+              {%- when "Website"   -%}<img src={{"/img/socialicons/website.svg" | relative_url}}>
             {%- endcase -%}
           </a>
         {%- endfor -%}
@@ -136,10 +136,10 @@
       {%- endif -%}
 
       <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-        <img src="{{ job.logo }}" class="company-logo">
+        <img src="{{ job.logo | relative_url }}" class="company-logo">
 
         <h3 class="resume-item-title company-name" itemprop="name" >
-          {%- if job.url -%}<a href="{{ job.url }}" itemprop="url" target="_blank">{{ job.company }}</a>{%- else -%}{{ job.company }}{%- endif -%}
+          {%- if job.url -%}<a href="{{ job.url | relative_url}}" itemprop="url" target="_blank">{{ job.company }}</a>{%- else -%}{{ job.company }}{%- endif -%}
         </h3>
 
         {%- if positions.size > 1 -%}
