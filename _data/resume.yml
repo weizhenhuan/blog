@@ -1,9 +1,9 @@
 theme: default
 header:
-  name: Chad Baldwin
-  suffix: MCSA
+  name: Zhenhuan Wei
+  suffix: 
   display_contact_info: true
-  current_title: Senior Database Developer
+  current_title: Postgraduate Student in XJTU
   intro: >
     Motivated and versatile software and database developer, MCSA certified in Database
     Development. Proficient in schema design, data normalization techniques and query/index tuning.
