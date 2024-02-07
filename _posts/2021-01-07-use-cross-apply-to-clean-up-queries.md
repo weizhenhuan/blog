@@ -76,7 +76,7 @@ SELECT c.ContactID, c.FullName, c.DateOfBirth, c.City, c.[State]
 FROM #Contact c;
 ```
 
-![Query Result](/img/queryresults/dry_cross_apply.png)
+![Query Result](/blog/img/queryresults/dry_cross_apply.png)
 
 It works...But oof, that is really ugly 😭
 

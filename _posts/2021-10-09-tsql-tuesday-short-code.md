@@ -4,10 +4,10 @@ title: "T-SQL Tuesday #143 – Short code examples"
 description: "T-SQL Tuesday topic of the month: Short Code Examples by John McCormack"
 date: 2021-10-12T07:00:00-07:00
 tags: T-SQL-Tuesday
-image: /img/companylogos/T-SQL-Tuesday-banner.png
+image: /blog/img/companylogos/T-SQL-Tuesday-banner.png
 ---
 
-[![T-SQL Tuesday Logo](/img/companylogos/T-SQL-Tuesday-logo.png){: style="width:200px; float:right;"}](https://johnmccormack.it/2021/10/t-sql-tuesday-143-short-code-examples/){:target="_blank"}
+[![T-SQL Tuesday Logo](/blog/img/companylogos/T-SQL-Tuesday-logo.png){: style="width:200px; float:right;"}](https://johnmccormack.it/2021/10/t-sql-tuesday-143-short-code-examples/){:target="_blank"}
 For the October [T-SQL Tuesday](http://tsqltuesday.com/){:target="_blank"} invitation, [John McCormack](https://johnmccormack.it/){:target="_blank"} is inviting others to share some of their favorite short code examples. These could be SSMS/SQL Prompt snippets, one liners, keyboard query shortcuts or snippets you've committed to memory. It doesn't have to be T-SQL, it could be Python, PowerShell, or anything else you use on a daily basis.
 
 I'm excited that this will be my first time participating in a T-SQL Tuesday topic!
@@ -34,7 +34,7 @@ FROM (
 ) x(val);
 ```
 
-![](/img/tsltuesday143/20211009_122006.png)
+![](/blog/img/tsltuesday143/20211009_122006.png)
 
 #### Divide by zero safe percentage
 
@@ -51,7 +51,7 @@ SELECT PctAsWhole   = CONVERT(decimal(6,3), COALESCE(@Numerator / NULLIF(@Denomi
      , PctAsDecimal = CONVERT(decimal(6,5), COALESCE(@Numerator / NULLIF(@Denominator * 1.00, 0), 0.00));
 ```
 
-![](/img/tsltuesday143/20211009_122541.png)
+![](/blog/img/tsltuesday143/20211009_122541.png)
 
 #### Generating random numbers within a range
 

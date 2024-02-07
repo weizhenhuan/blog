@@ -4,7 +4,7 @@ title: Building diagrams using graphviz
 description: You're tracing through a bunch of code, and you want to quickly visualize the dependency chain? Check out tools like Graphviz.
 date: 2021-03-25 21:00:00 -0700
 tags: Quick-Post
-image: /img/postbanners/2021-03-25-quick-diagramming.png
+image: /blog/img/postbanners/2021-03-25-quick-diagramming.png
 ---
 
 Today I was tracing through a chain of SQL stored procedures, tables, views, jobs, windows services, etc. I was beginning to forget which things were calling other things. It spanned multiple databases on multiple servers.
@@ -29,7 +29,7 @@ digraph G {
 
 That code will generate this chart:
 
-![download](/img/quickgraphviz/simple.png)
+![download](/blog/img/quickgraphviz/simple.png)
 
 That's it. I told you it was simple (I'll show you how to convert the code into a chart a little later).
 
@@ -44,7 +44,7 @@ digraph G {
 }
 ```
 
-![simple2](/img/quickgraphviz/simple2.png)
+![simple2](/blog/img/quickgraphviz/simple2.png)
 
 As far as throwing together simple dependency charts go...that's it. The reason I love this so much is because if all you care about is generating a chart, then this is great. You don't have to worry about spacing, dragging arrows or boxes around, setting up labels, etc. All you have to worry about is the entities (thing1, thing2) and the relationships (using `->` to say who points at who).
 
@@ -69,7 +69,7 @@ digraph G {
 }
 ```
 
-![relate](/img/quickgraphviz/relate.png)
+![relate](/blog/img/quickgraphviz/relate.png)
 
 Here, I've thrown in a label so that it's a bit more readable.
 
@@ -106,7 +106,7 @@ For fun, here's the chart I threw together today, using nested groups, different
 
 Most of this wasn't really necessary, but in the process, I wanted to learn more about using nested groups (called clusters).
 
-![final](/img/quickgraphviz/final.png)
+![final](/blog/img/quickgraphviz/final.png)
 
 ```dot
 digraph G {

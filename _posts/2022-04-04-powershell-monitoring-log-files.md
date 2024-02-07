@@ -4,7 +4,7 @@ title: "Handling log files in PowerShell"
 description: "Searching and monitoring old school log files in PowerShell"
 date: 2022-04-04T07:00:00-07:00
 tags: PowerShell
-image: /img/postbanners/2022-04-04-powershell-monitoring-log-files.png
+image: /blog/img/postbanners/2022-04-04-powershell-monitoring-log-files.png
 ---
 
 Inspecting and monitoring log files.
@@ -198,7 +198,7 @@ gc '.\2022-04-03.log' |
 
 Ending up with this:
 
-![](/img/pwshlogs/color.png)
+![](/blog/img/pwshlogs/color.png)
 
 ----
 

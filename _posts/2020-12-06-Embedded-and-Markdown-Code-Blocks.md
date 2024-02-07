@@ -1,6 +1,6 @@
 ---
 title: Code snippets in blog posts
-published: false
+published: true
 ---
 
 Trying to decide which code blocks would be best for posting blogs.

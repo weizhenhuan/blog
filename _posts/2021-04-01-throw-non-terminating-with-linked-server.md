@@ -4,7 +4,7 @@ title: "THROW command is non-terminating across linked servers"
 description: While working on a project, I realized today that the THROW command is non-terminating if returned by a stored procedure executed over a linked-server.
 date: 2021-04-01 21:20:00 -0700
 tags: T-SQL
-image: /img/postbanners/2021-04-01-throw-non-terminating-with-linked-server.png
+image: /blog/img/postbanners/2021-04-01-throw-non-terminating-with-linked-server.png
 ---
 
 While working on a project today, I ran into an interesting issue I'd never encountered before.
@@ -87,7 +87,7 @@ Running the first proc should do exactly what I would expect it to do:
 EXEC SandBox.dbo.FailLocal
 ```
 
-![image-20210401210959249](/img/throwlinkserver/image-20210401210959249.png)
+![image-20210401210959249](/blog/img/throwlinkserver/image-20210401210959249.png)
 
 `dbo.Fail` is run, it raises an exception, and as expected, all execution stops and the output message isn't returned.
 
@@ -97,7 +97,7 @@ Now run the second proc:
 EXEC SandBox.dbo.FailLinkServer
 ```
 
-![image-20210401211337097](/img/throwlinkserver/image-20210401211207777.png)
+![image-20210401211337097](/blog/img/throwlinkserver/image-20210401211207777.png)
 
 This time, we ran `dbo.Fail` via our linked sever connection. But, rather than raising an exception and terminating execution, it continued on running.
 
@@ -124,6 +124,6 @@ GO
 
 This way, any errors thrown by the stored procedure remotely, are re-thrown locally. After applying this fix, and running a test...
 
-![image-20210401211758133](/img/throwlinkserver/image-20210401211758133.png)
+![image-20210401211758133](/blog/img/throwlinkserver/image-20210401211758133.png)
 
 Woohoo! Now it's working how I would expect it to work.

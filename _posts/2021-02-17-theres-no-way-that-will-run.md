@@ -4,7 +4,7 @@ title: "\"There's no way that will run\""
 description: Things that you probably didn't think would actually run in SQL Server
 date: 2021-02-17 08:40:00 -0800
 tags: T-SQL
-image: /img/postbanners/2021-02-17-theres-no-way-that-will-run.png
+image: /blog/img/postbanners/2021-02-17-theres-no-way-that-will-run.png
 ---
 
 Have you ever seen some piece of code where you looked at it and thought "Okay, come on...there is no way that will run"...And then it somehow magically does?
@@ -120,7 +120,7 @@ This will apply a row numbering scheme without caring about order. However, I wo
 
 Not really...but SSMS sure makes it look that way...I'll show you how it looks in SSMS first...
 
-![image-20210216172330200](/img/confusingcode/image-20210216172330200.png)
+![image-20210216172330200](/blog/img/confusingcode/image-20210216172330200.png)
 
 Yeah....there's no way *that* will run...right?
 

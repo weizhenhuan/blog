@@ -1,7 +1,7 @@
 
 - company: "Homecare Homebase"
   summary: "Industry leader software solution for home-based care, streamlining everything from scheduling, mapping and routing to billing, compliance and revenue cycle management"
-  logo: "/img/companylogos/hchb.png"
+  logo: "/blog/img/companylogos/hchb.png"
   url: "https://www.hchb.com/"
   positions:
   - title: "Data Engineer III"
@@ -11,7 +11,7 @@
 
 - company: "AutoAlert"
   summary: "A data mining company dedicated to identifying leads in automotive dealerships customer data with the goal of helping them increase customer retention and sales."
-  logo: "/img/companylogos/aa.jpg"
+  logo: "/blog/img/companylogos/aa.jpg"
   url: "https://www.autoalert.com/"
   positions:
   - title: "Database Developer"
@@ -37,7 +37,7 @@
 
 - company: "Albert A. Webb Associates"
   summary:
-  logo: "/img/companylogos/aawa.png"
+  logo: "/blog/img/companylogos/aawa.png"
   url: "https://www.webbassociates.com/"
   positions: 
   - title: "IT Intern / Network Technician"
@@ -51,7 +51,7 @@
 
 #- company: American Money Group, Inc
 #  summary:
-#  logo: /img/companylogos/amg.jpg
+#  logo: /blog/img/companylogos/amg.jpg
 #  url: http://www.americanmoneygroup.com/
 #  positions:
 #  - title: IT Consultant
@@ -62,7 +62,7 @@
 
 #- company: Me-N-Ed's Pizza Parlor
 #  summary:
-#  logo: /img/companylogos/mne.jpg
+#  logo: /blog/img/companylogos/mne.jpg
 #  url: https://www.meneds.com/
 #  positions:
 #  - title: Employee

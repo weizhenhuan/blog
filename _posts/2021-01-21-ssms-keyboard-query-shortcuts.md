@@ -8,7 +8,7 @@ tags: SSMS
 
 Did you know you could do this in SSMS? Not sure what's happening here? Keep reading...
 
-![](/img/queryshortcuts/SSMS_1.gif){:data-gifffer="/img/queryshortcuts/SSMS_1.gif"}
+![](/blog/img/queryshortcuts/SSMS_1.gif){:data-gifffer="/blog/img/queryshortcuts/SSMS_1.gif"}
 
 Everyone has their favorite keyboard shortcuts, snippets, plugins, tools, UI settings, color schemes, etc.
 
@@ -34,7 +34,7 @@ Let's say you assign the text: `EXEC sp_whoisactive;` to `Ctrl`+`3`.
 
 Now, every time you press `Ctrl`+`3` it will run `EXEC sp_whoisactive;`.
 
-![](/img/queryshortcuts/SSMS_2.gif){:data-gifffer="/img/queryshortcuts/SSMS_2.gif"}
+![](/blog/img/queryshortcuts/SSMS_2.gif){:data-gifffer="/blog/img/queryshortcuts/SSMS_2.gif"}
 
 I think that's pretty simple to understand, so we can probably just move on to the more complicated usage...
 
@@ -60,7 +60,7 @@ So `sys.columns` now becomes `SELECT TOP(100) * FROM sys.columns`
 
 Here it is in action:
 
-![](/img/queryshortcuts/SSMS_1.gif){:data-gifffer="/img/queryshortcuts/SSMS_1.gif"}
+![](/blog/img/queryshortcuts/SSMS_1.gif){:data-gifffer="/blog/img/queryshortcuts/SSMS_1.gif"}
 
 Woah...pretty cool right?
 
@@ -97,7 +97,7 @@ Setting it up is simple. The option lives under:
 
 Tools > Options > Environment > Keyboard > Query Shortcuts
 
-![](/img/queryshortcuts/image-20210119201418877.png)
+![](/blog/img/queryshortcuts/image-20210119201418877.png)
 
 You'll notice that `Alt`+`F1`, `Ctrl`+`1`, `Ctrl`+`2` are already taken and cannot be changed. I know...it's annoying, but oh well `¯\_(ツ)_/¯`.
 

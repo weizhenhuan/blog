@@ -4,7 +4,7 @@ title: "Copy a large table between servers, a couple wrong ways, maybe one right
 description: "Have you ever needed to copy a giant 50 million record table from one server to another? Because I did...I failed a few times. But eventually I figured it out with the help of the SQL community."
 date: 2021-10-19T07:00:00-07:00
 tags: T-SQL
-#image: /img/foo/bar.png
+#image: /blog/img/foo/bar.png
 ---
 
 This was a task that popped up for me a few days ago...
@@ -51,7 +51,7 @@ Explanation: Run the query stored in `$Query`, and export the results to file as
 
 I kicked it off and let it run in the background. After an hour, I noticed my computer getting slower...and sloooower, so I checked in on it...
 
-![Powershell sucking up nearly 11GB of memory](/img/copytable/20211016_093534.png)
+![Powershell sucking up nearly 11GB of memory](/blog/img/copytable/20211016_093534.png)
 
 Yeah, that's not good 🔥🚒
 
@@ -101,9 +101,9 @@ On the upside, it was only using 234MB of RAM. So I guess that's better, but not
 
 I reached out to the [SQL Community Slack](http://aka.ms/sqlslack){:target="_blank"} to see if anyone had some better ideas. Almost immediately I had a couple great suggestions.
 
-Andy Levy [![Twitter](/img/socialicons/twitter.svg)](https://twitter.com/ALevyInROC){:target="_blank"} [![Website](/img/socialicons/website.svg)](https://www.flxsql.com){:target="_blank"} recommended `Copy-DbaDbTableData` from dbatools.
+Andy Levy [![Twitter](/blog/img/socialicons/twitter.svg)](https://twitter.com/ALevyInROC){:target="_blank"} [![Website](/blog/img/socialicons/website.svg)](https://www.flxsql.com){:target="_blank"} recommended `Copy-DbaDbTableData` from dbatools.
 
-Constantine Kokkinos [![Twitter](/img/socialicons/twitter.svg)](https://twitter.com/mobileck){:target="_blank"} [![Website](/img/socialicons/website.svg)](https://constantinekokkinos.com/){:target="_blank"} suggested the [`bcp.exe` SQL utility](https://docs.microsoft.com/en-us/sql/tools/bcp-utility?view=sql-server-ver15){:target="_blank"}.
+Constantine Kokkinos [![Twitter](/blog/img/socialicons/twitter.svg)](https://twitter.com/mobileck){:target="_blank"} [![Website](/blog/img/socialicons/website.svg)](https://constantinekokkinos.com/){:target="_blank"} suggested the [`bcp.exe` SQL utility](https://docs.microsoft.com/en-us/sql/tools/bcp-utility?view=sql-server-ver15){:target="_blank"}.
 
 Both options sounded good, but since I have quite a bit of experience with PowerShell as well as working with the dbatools library, I gave that a shot first.
 

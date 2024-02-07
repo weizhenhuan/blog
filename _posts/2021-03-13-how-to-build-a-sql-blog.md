@@ -4,7 +4,7 @@ title: Building a Free Blog with GitHub Pages in Minutes
 description: How to build a blog for free, using GitHub Pages.
 date: 2021-03-13 18:20:00 -0800
 tags: Blogging
-image: /img/postbanners/2021-03-13-how-to-build-a-sql-blog.png
+image: /blog/img/postbanners/2021-03-13-how-to-build-a-sql-blog.png
 ---
 
 ### This blog post is pending update, but I want your help!
@@ -71,7 +71,7 @@ Make sure you leave it set to "Public". If you set it to "Private", your website
 
 Now you can click "Create repository from template".
 
-![create_blog_copy_template](/img/createblog/create_blog_copy_template.gif){:data-gifffer="/img/createblog/create_blog_copy_template.gif"}
+![create_blog_copy_template](/blog/img/createblog/create_blog_copy_template.gif){:data-gifffer="/blog/img/createblog/create_blog_copy_template.gif"}
 
 ----
 
@@ -93,7 +93,7 @@ In order to edit these things, we'll need to make some changes to this file: `_c
 
 If you don't want to provide an email, or any of the social media usernames, you can simply comment them out using `#`
 
-![create_blog_copy_template](/img/createblog/create_blog_edit_config.gif){:data-gifffer="/img/createblog/create_blog_edit_config.gif"}
+![create_blog_copy_template](/blog/img/createblog/create_blog_edit_config.gif){:data-gifffer="/blog/img/createblog/create_blog_edit_config.gif"}
 
 Next, you'll want to customize your home page. Here you can write a small bio about yourself, or maybe a summary of what your blog is about. That's up to you.
 
@@ -101,7 +101,7 @@ To edit the home page, it's the same process we just went through to edit the `_
 
 Open up `index.md`, hit the edit button, and start writing. If you know how to use Markdown, you can use that for formatting, but if you don't, that's okay, don't worry about it, just write whatever you want, no need to worry about HTML or CSS or anything like that.
 
-![create_blog_edit_home_page](/img/createblog/create_blog_edit_home_page.gif){:data-gifffer="/img/createblog/create_blog_edit_home_page.gif"}
+![create_blog_edit_home_page](/blog/img/createblog/create_blog_edit_home_page.gif){:data-gifffer="/blog/img/createblog/create_blog_edit_home_page.gif"}
 
 You might be tempted to immediately go to your site to look at the changes, but like I mentioned earlier, you need to wait a minute or two for GitHub to detect that you made changes, and then it needs to rebuild your site. But eventually, you'll see the changes.
 
@@ -148,7 +148,7 @@ That's about all you need to know to get started.
 
 Here's a full playback of what it would look like:
 
-![create_blog_new_post](/img/createblog/create_blog_new_post.gif){:data-gifffer="/img/createblog/create_blog_new_post.gif"}
+![create_blog_new_post](/blog/img/createblog/create_blog_new_post.gif){:data-gifffer="/blog/img/createblog/create_blog_new_post.gif"}
 
 Once you save (Commit) the file, after a minute or two your new post will show up on the home page, ready for everyone to read it.
 
@@ -160,7 +160,7 @@ Once you save (Commit) the file, after a minute or two your new post will show u
 
 Now that you've updated your settings, you've renamed your blog, customized your home page and created your first blog post...now you can go and check it all out...
 
-![create_blog_review](/img/createblog/create_blog_review.gif){:data-gifffer="/img/createblog/create_blog_review.gif"}
+![create_blog_review](/blog/img/createblog/create_blog_review.gif){:data-gifffer="/blog/img/createblog/create_blog_review.gif"}
 
 ----
 

@@ -4,7 +4,7 @@ title: Use merge to split data into multiple tables
 description: Need to insert data from one source table into two or more tables while maintaining FK relationship? You can use a merge statement combined with output.
 date: 2021-02-08 09:50:00 -0800
 tags: T-SQL
-image: /img/postbanners/2021-02-08-use-merge-to-split-data.png
+image: /blog/img/postbanners/2021-02-08-use-merge-to-split-data.png
 ---
 
 I wish over the years, as I've learned various tricks, that I had saved where/who I got it from so that I could credit back later on. I guess I never expected to have a blog one day.
@@ -60,7 +60,7 @@ VALUES ('a', '1','b', '2')
     ,  ('m','13','n','14');
 ```
 
-![merge split source data](/img/queryresults/merge_split_source_data.png)
+![merge split source data](/blog/img/queryresults/merge_split_source_data.png)
 
 Set up the schema (sorry, can't use temp tables for this one, they don't support FK's):
 
@@ -124,12 +124,12 @@ FROM dbo.Table1 t1
     JOIN dbo.Table2 t2 ON t2.Table1ID = t1.Table1ID
 ```
 
-![split data results](/img/queryresults/merge_split_source_data.png)
+![split data results](/blog/img/queryresults/merge_split_source_data.png)
 
 #### Et Voilà!
 
 For those interested, here's what the execution plan looks like:
 
-![merge split execution plan](/img/queryresults/merge_split_execution_plan.png)
+![merge split execution plan](/blog/img/queryresults/merge_split_execution_plan.png)
 
 If you want to know more about the details of a merge execution plan, check out [this blog post from Hugo Kornelis explaining the details of a merge execution plan from his "plansplaining" series](https://sqlserverfast.com/blog/hugo/2020/09/plansplaining-part-11-merge-plans/){:target="_blank"}.

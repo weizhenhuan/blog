@@ -4,7 +4,7 @@ title: Parsing a pipe delimited file to get a unique list of values
 description: Today I needed to quickly parse a pipe delimited data file in order to get a unique list of values from one of the columns.
 date: 2021-03-23 20:40:00 -0700
 tags: Quick-Post
-#image: [[/img/postbanners/path to post banner image.png]] # 1200 x 627
+#image: [[/blog/img/postbanners/path to post banner image.png]] # 1200 x 627
 ---
 
 This is a new type of blog post I want to try my hand at. It isn't meant to be a step by step instructional post. I'm not going to spend time teaching the fundamentals, or explaining _why_ I did something the way I did, unless it's relevant.

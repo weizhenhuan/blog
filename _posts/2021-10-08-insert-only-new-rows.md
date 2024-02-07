@@ -4,7 +4,7 @@ title: "Insert Only New Rows With Nullable Key Columns"
 description: "Dealing with a NULLs is always a pain. Here I show one way to nicely handle them while performing an insert which needs to join on a multi-part key with nullable columns"
 date: 2021-10-07T19:41:00-07:00
 tags: T-SQL
-image: /img/postbanners/2021-10-07-insert-only-new-rows.png
+image: /blog/img/postbanners/2021-10-07-insert-only-new-rows.png
 ---
 
 I haven't posted in a while, so I thought I would throw a quick one together to hopefully restart the habit of writing and posting on a regular basis.

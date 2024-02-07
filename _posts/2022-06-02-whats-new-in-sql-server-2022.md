@@ -196,7 +196,7 @@ FROM #event;
 
 Result:
 
-![Result set showing the usage of greatest and least functions](/img/sqlserver2022/20220601_181117.png)
+![Result set showing the usage of greatest and least functions](/blog/img/sqlserver2022/20220601_181117.png)
 
 Of course this also comes with a caveat. These new functions are great if all you want to do is find the highest or lowest value...but if you want to use any other aggregate function, like `AVG()` or `SUM()`...unfortunately you'd still need to use the old method.
 
