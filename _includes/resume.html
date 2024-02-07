@@ -136,10 +136,10 @@
       {%- endif -%}
 
       <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-        <img src="{{ job.logo | relative_url }}" class="company-logo">
+        <img src="{{ job.logo }}" class="company-logo">
 
         <h3 class="resume-item-title company-name" itemprop="name" >
-          {%- if job.url -%}<a href="{{ job.url | relative_url}}" itemprop="url" target="_blank">{{ job.company }}</a>{%- else -%}{{ job.company }}{%- endif -%}
+          {%- if job.url -%}<a href="{{ job.url }}" itemprop="url" target="_blank">{{ job.company }}</a>{%- else -%}{{ job.company }}{%- endif -%}
         </h3>
 
         {%- if positions.size > 1 -%}
