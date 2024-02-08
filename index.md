@@ -1,6 +1,6 @@
 Just a technical man who loves freedom and travel.
 
-The main contents of this blog is mostly about **Artificial Intelligence(AI)** and **Deep Learning**, expecially for **High-Performance Computing** and **Inference Engine**.
+The main contents of this blog is mostly about **Artificial Intelligence(AI)** and **Deep Learning(DL)**, expecially for **High-Performance Computing(HPC)** and **Inference Engine**.
 
 I also like to post about my life...beautiful scenery during the journey, some pleasant or terrible moments and whatever else I seem to be obsessing over that month.
 
