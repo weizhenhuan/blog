@@ -25,7 +25,7 @@ github_username:   weizhenhuan
 #googleplus_username: +jekyll
 rss: rss
 
-show_excerpts: false
+show_excerpts: true
 
 # Used by simple links pages
 social-links:
