@@ -3,3 +3,4 @@ Gemfile
 Gemfile.lock
 .jekyll-metadata
 blog/
+.vscode/
